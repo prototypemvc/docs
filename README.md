@@ -149,6 +149,11 @@ Password::make($password, $algo = PASSWORD_BCRYPT, array $options = array())
 Password::getInfos($hash)    
 Password::needsRehash($hash, $algo = PASSWORD_BCRYPT, array $options = array())    
 Password::verify($password, $hash)    
+### Request   
+Request::delete($url = false, $params = false)    
+Request::get($url = false, $params = false)    
+Request::post($url = false, $params = false)    
+Request::put($url = false, $params = false)    
 ### Session   
 Session::init()    
 Session::get()    
