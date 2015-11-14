@@ -64,6 +64,7 @@ Format::arrayToObject($array = false)
 Format::objectToJson($object = false, $pretty = false)    
 Format::toObject($input = false)    
 Format::toArray($input = false)    
+Format::xmlToArray($input = false)    
 ### LazyLoad   
 LazyLoad::on()    
 ### Load   
