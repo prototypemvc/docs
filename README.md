@@ -1,14 +1,8 @@
 # docs   
 ## core   
-### Bootstrap   
-__construct()    
-setController($name)    
-init()    
 ### Config   
 Config::get()    
-Config::set()    
-### Controller   
-__construct()    
+Config::set()      
 ### Data   
 Data::count($data = false)    
 Data::dump($data = false)    
@@ -20,9 +14,6 @@ Data::random($data = false)
 Data::request($key = false)    
 Data::session($key = false)    
 Data::type($data = false)    
-### Error   
-__construct($error)    
-index()    
 ### File   
 File::append($file = false, $content = false)    
 File::clear($file = false)    
